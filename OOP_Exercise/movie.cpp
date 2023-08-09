@@ -40,14 +40,13 @@ Movie::Movie(string n, string r, int w)
     watched = w;
 }
 
-Movie::Movie(const Movie &movie)
+/*Movie::Movie(const Movie &movie):name(movie.name), rating(movie.rating),watched(movie.watched)
 {
-    Movie {movie.name,movie.rating,movie.watched};
-}
+    
+}*/
 
 Movie::~Movie()
 {
-    cout<<"movie deleted"<<endl;
 }
 
 void Movie::displayMovie()const

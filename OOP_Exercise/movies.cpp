@@ -14,10 +14,7 @@ bool Movies::addMovie(string name, string rating, int watched)
     }
     
     Movie m {name, rating, watched};
-    m.displayMovie();
     collection.push_back(m);
-    m.displayMovie();
-    collection.at(0).displayMovie();
     
     return true;
 }
