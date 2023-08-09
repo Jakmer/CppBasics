@@ -22,7 +22,7 @@ public:
     void displayMovie() const;
 
     Movie(string n, string r, int w);
-   // Movie(const Movie &movie);
+    Movie(const Movie &movie);
     ~Movie();
 };
 
