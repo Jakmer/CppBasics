@@ -18,17 +18,17 @@ void Movie::setWatched()
     watched++;
 }
 
-string Movie::getName()const
+string Movie::getName() const
 {
     return name;
 }
 
-string Movie::getRating()const
+string Movie::getRating() const
 {
     return rating;
 }
 
-int Movie::getWatched()const
+int Movie::getWatched() const
 {
     return watched;
 }
@@ -40,16 +40,15 @@ Movie::Movie(string n, string r, int w)
     watched = w;
 }
 
-Movie::Movie(const Movie &movie):name(movie.name), rating(movie.rating),watched(movie.watched)
+Movie::Movie(const Movie &movie) : name(movie.name), rating(movie.rating), watched(movie.watched)
 {
-    
 }
 
 Movie::~Movie()
 {
 }
 
-void Movie::displayMovie()const
+void Movie::displayMovie() const
 {
-    cout<<name<<" - "<<rating<<" - "<<watched<<endl;
+    cout << name << " - " << rating << " - " << watched << endl;
 }
