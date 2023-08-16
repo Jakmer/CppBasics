@@ -8,12 +8,10 @@ class Saving_acc : public Account
 {
     friend std::ostream &operator<<(std::ostream &os, Saving_acc &acc);
 
-private:
+protected:
     static constexpr char *default_name = "Saving account";
     static constexpr double default_balance = 0.0;
     static constexpr int default_rate = 0.0;
-
-protected:
     int rate;
 
 public:

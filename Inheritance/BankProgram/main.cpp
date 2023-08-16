@@ -30,5 +30,32 @@ int main()
     deposit(sav_accounts,1000);
     withdraw(sav_accounts,2000);
 
+    std::vector<Check_acc> check_accounts;
+
+    check_accounts.push_back(Check_acc{});
+    check_accounts.push_back(Check_acc{"Alice"});
+    check_accounts.push_back(Check_acc{"Bob",2000});
+    check_accounts.push_back(Check_acc{"Fred",5000});
+
+    display(check_accounts);
+    deposit(check_accounts,1000);
+    withdraw(check_accounts,2000);
+
+    std::vector<Trust_acc> trust_accounts;
+
+    trust_accounts.push_back(Trust_acc{});
+    trust_accounts.push_back(Trust_acc{"A"});
+    trust_accounts.push_back(Trust_acc{"B",2000});
+    trust_accounts.push_back(Trust_acc{"F",5000,5});
+
+    display(trust_accounts);
+    deposit(trust_accounts,1000);
+    withdraw(trust_accounts,2000);
+    withdraw(trust_accounts,20);
+    withdraw(trust_accounts,20);
+    withdraw(trust_accounts,20);
+    withdraw(trust_accounts,20);
+    deposit(trust_accounts,5000);
+
     return 0;
 }

@@ -2,7 +2,7 @@
 
 std::ostream &operator<<(std::ostream &os, Saving_acc &acc)
 {
-    os << "[Account: " << acc.name << ":" << acc.balance <<" rate: "<<acc.rate<< " ]\n";
+    os << "[Saving account: " << acc.name << ":" << acc.balance <<" rate: "<<acc.rate<< " ]\n";
     return os;
 }
 
