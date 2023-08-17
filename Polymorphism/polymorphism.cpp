@@ -47,5 +47,10 @@ int main()
         i->greetings();
     }
 
+    delete p1;
+    delete p2;
+    delete p3;
+    delete p4;
+
     return 0;
 }
