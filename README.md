@@ -1,2 +1,2 @@
 # C++ codes solving various basic problems
-each branch represents different issue
+Each branch represents different issue
