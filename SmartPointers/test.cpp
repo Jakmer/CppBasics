@@ -41,8 +41,7 @@ void fill(std::vector<std::shared_ptr<Test>> &vec, int num)
     {
         int input{};
         std::cin >> input;
-        std::shared_ptr<Test> ptr = std::make_shared<Test>(input);
-        vec.push_back(ptr);
+        vec.push_back(std::make_shared<Test>(input));
     }
 }
 
