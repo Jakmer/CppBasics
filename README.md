@@ -1,2 +1,2 @@
-# C++ codes solving various basic problems
-Each branch represents different issue
+# Cpp_exercises
+Exception handling is a concept about dealing with unexpected or exceptional situations that can occur during the execution of a program.
