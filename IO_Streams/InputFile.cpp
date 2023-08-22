@@ -5,7 +5,7 @@
 int main()
 {
     std::ifstream file;
-    file.open("/home/jakub/Documents/Workspace/C++/Course/IO_Streams/input.txt");
+    file.open("input.txt");
 
     if (!file)
     {
