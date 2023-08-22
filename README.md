@@ -1,2 +1,2 @@
-# C++ codes solving various basic problems
-Each branch represents different issue
+# Cpp exercises
+STL features like containers algorithms and iterators
