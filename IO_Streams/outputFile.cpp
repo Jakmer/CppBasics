@@ -17,7 +17,7 @@ int main()
 
     while (std::getline(in_file, line))
     {
-        if (line.size() == 1)
+        if (line=="\r")
         {
             out_file << line;
             continue;
