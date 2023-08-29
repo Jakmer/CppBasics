@@ -1,2 +1,2 @@
-# C++ codes solving various basic problems
-Each branch represents different issue
+# Cpp exercises
+Lambda expressions are small and anonymous functions within code scope
